@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block head %}About{% endblock head %}
+
+{% block body %}
+
+<style>
+
+
+    /* Reset default margin and padding */
+    body, h1, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Set background color and font styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        background-image: url('static/pizza/p11.jfif');
+
+    }
+
+    /* Header styles */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #menu, #instagram, #order, #drinks {
+        color: darkkhaki;
+        
+    }
+
+    /* Main content styles */
+    .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* About section styles */
+    .about-section {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: white;
+    }
+
+    /* Footer styles */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+    <header>
+        <h1>Welcome to Faizz Family Restaurant!</h1>
+        <p>Your go-to place for Burger Pizzas, cold drinks, and more.</p>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu Highlights</h2>
+        <ul>
+            <li>Classic Veg Burger Pizza</li>
+            <li>Premium Veg Burger Pizza</li>
+            <li>Classic Non-Veg Burger Pizza</li>
+            <!-- Add more menu items here -->
+        </ul>
+    </section>
+
+    <section id="drinks">
+        <h2>Cold Drinks to Quench Your Thirst</h2>
+        <ul>
+            <li>Pepsi Black Can</li>
+            <li>Mirinda 500ml</li>
+            <li>7Up 500ml</li>
+            <!-- Add more drink options here -->
+        </ul>
+    </section>
+
+    <section id="order">
+        <h2>Visit Us or Order Online</h2>
+        <p>Dine-In: Come to our cozy restaurant and enjoy the variety of options on our menu.</p>
+        <p>Online Ordering: Explore our range of Burger Pizzas and place your order through our app.</p>
+    </section>
+
+    <section id="instagram">
+        <h2>Instagram-Worthy Delights</h2>
+        <p>Our Burger Pizzas are not only amazing in taste but also Instagram-worthy!</p>
+        <!-- Add images of your delicious dishes here -->
+    </section>
+
+{% endblock body %}
+
+{% block footer %}
+<hr>
+    <p>Location: Sundeer Deep college, Dasna</p>
+    <p>Contact: [+91 9837-240-430]</p>
+<hr>
+
+{% endblock footer %}
